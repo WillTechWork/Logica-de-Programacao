@@ -184,8 +184,8 @@ O operador Não / Not recebe apenas um valor como entrada, ele inverterá o valo
 Diferente dos outros operadores, ele não junta comparações, ele irá apenas inverter o valor delas.
 O operador Não / Not pode ser simbolizado por ‘!’ em algumas linguagens de programação. Perceba que a exclamação (!) junto com o sinal de igual (=) forma o operador ‘Diferente de’.
 ## Considere as seguintes variáveis:
-1 - A = 3
-2 - B = 4
+- 1 - A = 3
+- 2 - B = 4
 
 ## Expressão	Resultado
 - A > 0	Não / Not / !	Falso / False
