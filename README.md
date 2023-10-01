@@ -63,17 +63,16 @@ Assim, para obtermos o número que representa o valor de (?), basta somar o valo
 
 # Tipos de Dados:
 
-Os dados podem ser do tipo:
+- Os dados podem ser do tipo:
 •	Numérico;
 •	Literal;
 •	Lógico
 
 # Dados Numéricos
-Os dados numéricos representáveis em um computador são divididos em
-Duas classes: INTEIROS e REAIS.
-Dados numéricos Inteiros
+- Os dados numéricos representáveis em um computador são divididos em duas classes: INTEIROS e REAIS.
+## Dados numéricos Inteiros
 Os números inteiros são aqueles que não possuem componentes decimais ou fracionários, podendo ser positivos ou negativos.
-Dados numéricos Reais
+## Dados numéricos Reais
 Os números reais são aqueles que podem possuir componentes decimais ou
 Fracionários, positivos ou negativos.
 
@@ -100,26 +99,101 @@ Sim/ não, 1/0, true/false.
 - Não devem conter hífen entre os nomes (utilize underline).
 
 ## Operadores Aritméticos
+
 - Conjunto de símbolos que representam as operações básicas da matemática como: somar, subtrair, multiplicar, dividir e etc.
 - Esses operadores somente poderão ser utilizados entre variáveis com os tipos de dados numéricos inteiros e/ou numéricos reais.
   ![image](https://github.com/WillTechWork/Logica-de-Programacao/assets/142448070/b6995a38-e653-4272-ae8e-d8a8030fd874)
 
 ## Obedecem às regras matemáticas comuns:
+
 -	As expressões de dentro de parênteses são sempre resolvidas antes das expressões fora dos parênteses;
 -	Quando existe um parêntese dentro de outro, a solução sempre inicia do parêntese mais interno até o mais externo (de dentro para fora);
 -	Quando duas ou mais expressões tiverem a mesma prioridade, a solução é sempre iniciada da expressão mais à esquerda até a mais à direita.
 
 ## Operadores relacionais:
+
 - Os operadores relacionais são utilizados para comparar valores que estejam ou não armazenados em uma variável.
 - Estes operadores sempre irão retornar valores lógicos ( verdadeiro ou falso).
 - Os operadores relacionais possuem variações dependendo da linguagem de programação utilizada, mas o conhecimento de símbolos comuns facilita a aprendizagem.
 ## Descrição	Símbolo:
+
 - Menor que	        <  
 - Maior que	        >
 - Maior ou igual a 	>=
 - Menor ou igual a 	<=
 - Igual a           ==
-- Diferente de	     != 
+- Diferente de	     !=
+
+## True ou False:
+
+- A > B	Falso / False
+- A < B	Verdadeiro / True
+- A >= B	Falso / False
+- A <= B	Verdadeiro / True
+- A == B	Falso / False
+- A != B	Verdadeiro / True
+
+## Operadores Lógicos:
+
+Os operadores lógicos têm como função a combinação de expressões de comparação, retornando se o resultado final é verdadeiro ou falso.
+Os operadores lógicos são:
+- E	And
+- Ou	Or
+- Não	Not
+- Operador E / And
+Esse operador exige que as comparações feitas sejam verdadeiras, só assim ele retornará um valor Verdadeiro / True, caso contrário ele retornará Falso / False.
+- Operador E / And
+ 
+Esse operador exige que as comparações feitas sejam verdadeiras, só assim ele retornará um valor Verdadeiro / True, caso contrário ele retornará Falso / False.
+Normalmente esse operador é representado por ’&&’ nas linguagens de programação, porém como dito pode ocorrer variações na maneira como esse operador é simbolizado.
+Exemplo:
+## Considere que temos 3 variáveis:
+- 1- A = 4
+- 2- B = 7
+- 3- C = 2
+## Os resultados de algumas expressões seriam:
+- Expressões	Resultado
+A = B	And / E / &&	B > 7	Falso / False
+A > C	And / E / &&	C < B	Verdadeiro / True
+B > C	And / E / &&	B > A	Verdadeiro / True
+C > A	And / E / &&	A < B	Falso / False
+
+OBS: É importante perceber que o operador E / And só retorna um valor Verdadeiro / True, caso as duas comparações que ele está juntando sejam verdadeiras.
+
+## Operador Ou / Or
+O operador ‘Ou’ retorna um valor Verdadeiro / True se pelos menos uma das comparações que ele estiver ‘ligando’ retornar um valor Verdadeiro / True, caso as duas comparações forem falsas, ele retorna Falso / False
+Em algumas linguagens de programação esse operador é representado por ‘||’ ( Duas barras verticais), porém a representação pode mudar de acordo com a linguagem de programação escolhida.
+•	Considere as seguintes variáveis:
+•	1 - A = 12
+•	2 - B = 2
+•	3 - C = 6
+•	Os resultados de algumas expressões seriam:
+
+## Expressão	Resultado
+
+A > B	Ou / Or / ||	C > B	Verdadeiro / True
+B < C	Ou / Or / ||	C > A	Verdadeiro / False
+C!= A	Ou / Or / ||	A!= B	Verdadeiro / True
+B!= C	Ou / Or / ||	A <= C	Verdadeiro / True
+B > A	Ou / Or / ||	B > C	Falso / False
+OBS: Como dito, se ao menos uma comparação retornar um valor verdadeiro, o operador Ou / Or retorna Verdadeiro / True.
+
+
+## Operador Não / Not: 
+O operador Não / Not recebe apenas um valor como entrada, ele inverterá o valor que receber. Se ele receber um valor Falso / False, ele retorna um valor Verdadeiro / True, e vice versa.
+Diferente dos outros operadores, ele não junta comparações, ele irá apenas inverter o valor delas.
+O operador Não / Not pode ser simbolizado por ‘!’ em algumas linguagens de programação. Perceba que a exclamação (!) junto com o sinal de igual (=) forma o operador ‘Diferente de’.
+•	Considere as seguintes variáveis:
+1 - A = 3
+2 - B = 4
+
+## Expressão	Resultado
+A > 0	Não / Not / !	Falso / False
+B > 0	Não / Not / !	Falso / False
+A > B	Não / Not / !	Verdadeiro/True
+
+
+
 
 
 
