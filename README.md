@@ -114,19 +114,13 @@ Sim/ não, 1/0, true/false.
 - Estes operadores sempre irão retornar valores lógicos ( verdadeiro ou falso).
 - Os operadores relacionais possuem variações dependendo da linguagem de programação utilizada, mas o conhecimento de símbolos comuns facilita a aprendizagem.
 ## Descrição	Símbolo:
-------------------------
-|Menor que	      | <  |
-------------------------
-|Maior que	      | >  |
-------------------------
-|Maior ou igual a |	>= |
-------------------------
-|Menor ou igual a |	<= |
-------------------------
-|Igual a          | == |
-------------------------
-|Diferente de	    | != |
-------------------------
+- Menor que	        <  
+- Maior que	        >
+- Maior ou igual a 	>=
+- Menor ou igual a 	<=
+- Igual a           ==
+- Diferente de	     != 
+
 
 
 
