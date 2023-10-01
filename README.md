@@ -71,10 +71,10 @@ Assim, para obtermos o número que representa o valor de (?), basta somar o valo
 ## Dados Numéricos
 - Os dados numéricos representáveis em um computador são divididos em duas classes: INTEIROS e REAIS.
 ## Dados numéricos Inteiros
-Os números inteiros são aqueles que não possuem componentes decimais ou fracionários, podendo ser positivos ou negativos.
+- Os números inteiros são aqueles que não possuem componentes decimais ou fracionários, podendo ser positivos ou negativos.
 ## Dados numéricos Reais
-Os números reais são aqueles que podem possuir componentes decimais ou
-Fracionários, positivos ou negativos.
+- Os números reais são aqueles que podem possuir componentes decimais ou
+- Fracionários, positivos ou negativos.
 
 ## Dados Literais
 - Os dados literais são sequência de caracteres que podem ser letras, dígitos e símbolos especiais.
@@ -153,10 +153,10 @@ Exemplo:
 - 3- C = 2
 ## Os resultados de algumas expressões seriam:
 - Expressões	Resultado
-A = B	And / E / &&	B > 7	Falso / False
-A > C	And / E / &&	C < B	Verdadeiro / True
-B > C	And / E / &&	B > A	Verdadeiro / True
-C > A	And / E / &&	A < B	Falso / False
+- A = B	And / E / &&	B > 7	Falso / False
+- A > C	And / E / &&	C < B	Verdadeiro / True
+- B > C	And / E / &&	B > A	Verdadeiro / True
+- C > A	And / E / &&	A < B	Falso / False
 
 OBS: É importante perceber que o operador E / And só retorna um valor Verdadeiro / True, caso as duas comparações que ele está juntando sejam verdadeiras.
 
@@ -171,11 +171,11 @@ Em algumas linguagens de programação esse operador é representado por ‘||�
 
 ## Expressão	Resultado
 
-A > B	Ou / Or / ||	C > B	Verdadeiro / True
-B < C	Ou / Or / ||	C > A	Verdadeiro / False
-C!= A	Ou / Or / ||	A!= B	Verdadeiro / True
-B!= C	Ou / Or / ||	A <= C	Verdadeiro / True
-B > A	Ou / Or / ||	B > C	Falso / False
+- A > B	Ou / Or / ||	C > B	Verdadeiro / True
+- B < C	Ou / Or / ||	C > A	Verdadeiro / False
+- C!= A	Ou / Or / ||	A!= B	Verdadeiro / True
+- B!= C	Ou / Or / ||	A <= C	Verdadeiro / True
+- B > A	Ou / Or / ||	B > C	Falso / False
 OBS: Como dito, se ao menos uma comparação retornar um valor verdadeiro, o operador Ou / Or retorna Verdadeiro / True.
 
 
@@ -183,14 +183,14 @@ OBS: Como dito, se ao menos uma comparação retornar um valor verdadeiro, o ope
 O operador Não / Not recebe apenas um valor como entrada, ele inverterá o valor que receber. Se ele receber um valor Falso / False, ele retorna um valor Verdadeiro / True, e vice versa.
 Diferente dos outros operadores, ele não junta comparações, ele irá apenas inverter o valor delas.
 O operador Não / Not pode ser simbolizado por ‘!’ em algumas linguagens de programação. Perceba que a exclamação (!) junto com o sinal de igual (=) forma o operador ‘Diferente de’.
-•	Considere as seguintes variáveis:
+## Considere as seguintes variáveis:
 1 - A = 3
 2 - B = 4
 
 ## Expressão	Resultado
-A > 0	Não / Not / !	Falso / False
-B > 0	Não / Not / !	Falso / False
-A > B	Não / Not / !	Verdadeiro/True
+- A > 0	Não / Not / !	Falso / False
+- B > 0	Não / Not / !	Falso / False
+- > B	Não / Not / !	Verdadeiro/True
 
 
 
