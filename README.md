@@ -6,7 +6,7 @@ O computador é uma máquina ou dispositivo capaz de executar uma sequência de 
 
 As partes físicas de um computador, tais como: dispositivos de entrada e saída (ex.: monitor, teclado, impressora, webcam), dispositivos de armazenamento (ex. memória volátil e permanente), processador, assim como todo o conjunto de elementos que compõem um computador são chamados de hardware. A Figura 1.1 apresenta os elementos que compõem o hardware.
 
-# O computador se baseia em: PROCESADOR/PROCESSAMENTO <-> MEMÓRIA/ARMAZENAMENTO <-> ENTRADA/SAÍDA
+# O computador se baseia em: PROCESADOR/PROCESSAMENTO <-> MEMÓRIA/ARMAZENAMENTO <-> ENTRADA/SAÍDA/DADOS
 
 * Dispositivo: mecanismo usado para obter um resultado.
 * Instruções: ordens ou comandos para que um computador execute uma solicitação do homem (usuário), a fim de atender a uma determinada necessidade.
