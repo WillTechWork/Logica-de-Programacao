@@ -61,14 +61,14 @@ Assim, para obtermos o número que representa o valor de (?), basta somar o valo
  ![image](https://github.com/WillTechWork/Logica-de-Programacao/assets/142448070/c5dd628a-1f34-4255-b7c4-6980b92bbebf)
 
 
-# Tipos de Dados:
+## Tipos de Dados:
 
 - Os dados podem ser do tipo:
 •	Numérico;
 •	Literal;
 •	Lógico
 
-# Dados Numéricos
+## Dados Numéricos
 - Os dados numéricos representáveis em um computador são divididos em duas classes: INTEIROS e REAIS.
 ## Dados numéricos Inteiros
 Os números inteiros são aqueles que não possuem componentes decimais ou fracionários, podendo ser positivos ou negativos.
@@ -76,7 +76,7 @@ Os números inteiros são aqueles que não possuem componentes decimais ou fraci
 Os números reais são aqueles que podem possuir componentes decimais ou
 Fracionários, positivos ou negativos.
 
-# Dados Literais
+## Dados Literais
 - Os dados literais são sequência de caracteres que podem ser letras, dígitos e símbolos especiais.
 - São representados nos algoritmos, pelo delimitador aspas (“) no seu início e término.
 ## Dados Lógicos
