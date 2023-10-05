@@ -1,36 +1,3 @@
-console.log("Olá, mundo!");
-
-document.write("Olá, documento!");
-
-window.alert("Olá, janela!");
-
-
-//Lógica de Programação
-// Problema: obter 3 notas de um aluno, 
-// calcular a média, exibir a média e situação condicional se o aluno foi: Aprovado(a) ou Reprovado(a).
-
-// EXEMPLO
-
-console.log("Início do programa");
-
-// Declaração das variáveis
-// const : Tipo de variável com o valor constante, que é inalterável.
-
-const nota1 = parseInt(prompt("Digite a nota 1:"));
-const nota2 = parseInt(prompt("Digite a nota 2:"));
-const nota3 = parseInt(prompt("Digite a nota 3:"));
-
-// Cálculo da média
-const media = (nota1 + nota2 + nota3) / 3;
-
-console.log("A nota 1 é:', nota1");
-console.log("A nota 2 é:', nota2");
-console.log("A nota 3 é:', nota3");
-
-console.log("A média do aluno é:", media);
-
-console.log("Fim da execução do programa");
-
 // * COMPUTADOR SE RESUME:
 
 // * Máquina que extrai dados;
@@ -57,6 +24,60 @@ console.log("Fim da execução do programa");
 // Sequência lógica e finita de instruções que resolvem um problema;
 // Exemplo: Receita de bolo, manual de instruções para solucionar um problema;
 // Nem todo algoritmo é um programa de computador, mas todo programa de computador
+// A Média do aluno, situação:
+// Nem todo algoritmo é um programa de computador, mas todo programa de computador é ALGORITMO;
+// Quem viabiliza o funcionamento dos algoritmos nos computadores: LINGUAGENS DE PROGRAMAÇÃO.
+
+// ALGORITMO PARA CALCULAR A MÉDIA DE 3 NÚMEROS:
+
+// 1- Início;
+// 2- Receber o primeiro número: entrada 1;
+// 3- Receber o segundo número: entrada 2;
+// 4- Receber o terceiro número: entrada 3;
+// 5- Somar os 3 números recebidos e dividir por 3;
+// (entrada 1 + entrada 2 + entrada 3) / 3;
+// 6- Exibir o resultado: print, echo, console.log ;
+// 7- Fim
+
+// TREINAR O RACIOCÍNIO LÓGICO COM - TORRE DE HANOI:
+
+// Mover todos os discos para a direita, com o menor número de movimentos possíveis, sem colocar um disco em cima
+// de um disco menor: https//www.somatematica.com.br/jogos/hanoi
+
+// TREINAMENTO PARA PROGRAMAÇÃO VOLTADO AO PHP, EXCELENTE:
+// https//www.somatematica.com.br/jogos.php */
+
+console.log("Olá, mundo!");
+document.write("Olá, documento!");
+window.alert("Olá, janela!");
+
+
+//Lógica de Programação
+// Problema: obter 3 notas de um aluno, 
+// calcular a média, exibir a média e situação condicional se o aluno foi: Aprovado(a) ou Reprovado(a).
+
+// EXEMPLO
+
+console.log("Início do programa");
+
+// Declaração das variáveis
+// const : Tipo de variável com o valor constante, que é inalterável.
+
+const nota1 = parseInt(document.getElementById("Digite a nota 1:").value);
+const nota2 = parseInt(document.getElementById("Digite a nota 2:").value);
+const nota3 = parseInt(document.getElementById("Digite a nota 3:").value);
+
+// Cálculo da média
+
+const media = (nota1 + nota2 + nota3) / 3;
+
+console.log("A nota 1 é:', nota1");
+console.log("A nota 2 é:', nota2");
+console.log("A nota 3 é:', nota3");
+
+console.log("A média do aluno é:", media);
+
+console.log("Fim da execução do programa");
 
 // EXERÍCIO PRÁTICO:
 
@@ -80,6 +101,7 @@ console.log("Fim do programa");
 
 
 // EXEMPLO PRÁTICO 02
+
 <form action="">
 
     <div class="controle-form">
@@ -98,35 +120,11 @@ console.log("Fim do programa");
     </div>
     <buttom onclick="Myfunction()">Calcular</buttom>
 
+
+
+    DECLARANDO AS VARIÁVEIS:
+
+    const.log
+    const.log
+    const.log
 </form>
-
-
- {/* A Média do aluno é:
-
-Situação:  */}
-=======
-{/* // Nem todo algoritmo é um programa de computador, mas todo programa de computador é ALGORITMO;
-// Quem viabiliza o funcionamento dos algoritmos nos computadores: LINGUAGENS DE PROGRAMAÇÃO.
-
-// ALGORITMO PARA CALCULAR A MÉDIA DE 3 NÚMEROS:
-
-// 1- Início;
-// 2- Receber o primeiro número: entrada 1;
-// 3- Receber o segundo número: entrada 2;
-// 4- Receber o terceiro número: entrada 3;
-// 5- Somar os 3 números recebidos e dividir por 3;
-// (entrada 1 + entrada 2 + entrada 3) / 3;
-// 6- Exibir o resultado: print, echo, console.log ;
-// 7- Fim
-
-// TREINAR O RACIOCÍNIO LÓGICO COM - TORRE DE HANOI:
-
-// Mover todos os discos para a direita, com o menor número de movimentos possíveis, sem colocar um disco em cima
-// de um disco menor: https//www.somatematica.com.br/jogos/hanoi
-
-// TREINAMENTO PARA PROGRAMAÇÃO VOLTADO AO PHP, EXCELENTE:
-// https//www.somatematica.com.br/jogos.php */} */}
-
-
-
-
