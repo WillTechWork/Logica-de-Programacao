@@ -131,3 +131,4 @@ Situação
     < script src = "./script.js" ></script > */}
 
 // EXEMPLOS DE CALCULAR A MÉDIA COM JAVASCRIPT
+// Estudar em casa...melhor coisa!
