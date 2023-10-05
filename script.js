@@ -100,35 +100,25 @@ console.log("Fim do programa");
 
 
 
-// EXEMPLO PRÁTICO 02
+// OUTROS EXEMPLOS
+// EXEMPLO - 01
 
-{/* <form action="">
+function calcularMedia (array){
+    let soma = 0;
+    for (let i = 0; i < array.lenght; i++) {
+        soma += array[i];
 
+    }
+    const media = soma / array.lenght;
+    return media;
+}
 
-<div class="controle-form">
-        <label for="">Nota 1:</label>
-        <Input type="text" id="nota1">
-    </div>
+const numeros = [1, 2, 3, 4, 5];
+const resultado = calcularMedia(numeros);
+console.log(resultado); //Output: 3
 
-    <div class="controle-form">
-        <label for="">Nota 2:</label>
-        <Input type="text" id="nota2">
-    </div>
+// EXEMPLO - 02
 
-    <div class="controle-form">
-        <label for="">Nota 3:</label>
-        <Input type="text" id="nota3">
-    </div>
-    <buttom onclick="Myfunction()">Calcular</buttom>
-
-</form>
-
-<div id="resultado">
-    </div>
-
-    A média do aluno é:
-Situação
-    < script src = "./script.js" ></script > */}
-
-// EXEMPLOS DE CALCULAR A MÉDIA COM JAVASCRIPT
-// Estudar em casa...melhor coisa!
+function calcularMedia(array) {
+    const soma = array.reduce((acc, curr)) => acc
+}
