@@ -102,9 +102,10 @@ console.log("Fim do programa");
 
 // EXEMPLO PRÁTICO 02
 
-<form action="">
+{/* <form action="">
 
-    <div class="controle-form">
+
+<div class="controle-form">
         <label for="">Nota 1:</label>
         <Input type="text" id="nota1">
     </div>
@@ -120,6 +121,13 @@ console.log("Fim do programa");
     </div>
     <buttom onclick="Myfunction()">Calcular</buttom>
 
-
-
 </form>
+
+<div id="resultado">
+    </div>
+
+    A média do aluno é:
+Situação
+    < script src = "./script.js" ></script > */}
+
+// EXEMPLOS DE CALCULAR A MÉDIA COM JAVASCRIPT
