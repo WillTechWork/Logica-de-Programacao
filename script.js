@@ -122,9 +122,4 @@ console.log("Fim do programa");
 
 
 
-    DECLARANDO AS VARIÁVEIS:
-
-    const.log
-    const.log
-    const.log
 </form>
