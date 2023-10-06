@@ -1,4 +1,4 @@
-//  COMPUTADOR SE RESUME:
+ //  COMPUTADOR SE RESUME:
 
 //  Máquina que extrai dados;
 //  Máquina que realiza processamento, ou seja, operações nos dados de entrada / saída.
@@ -52,16 +52,16 @@ document.write("Olá, documento!");
 window.alert("Olá, janela!");
 
 
-// Lógica de Programação
-// Problema: obter 3 notas de um aluno, 
-// calcular a média, exibir a média e situação condicional se o aluno foi: Aprovado(a) ou Reprovado(a).
+// - Lógica de Programação
+// - Problema: obter 3 notas de um aluno, 
+// - Calcular a média, exibir a média e situação condicional se o aluno foi: Aprovado(a) ou Reprovado(a).
 
 // EXEMPLO
 
 console.log("Início do programa");
 
-// Declaração das variáveis
-// const : Tipo de variável com o valor constante, que é inalterável.
+// - Declaração das variáveis
+// - const : Tipo de variável com o valor constante, que é inalterável.
 
 const nota1 = parseInt(document.getElementById("Digite a nota 1:").value);
 const nota2 = parseInt(document.getElementById("Digite a nota 2:").value);
@@ -100,8 +100,8 @@ console.log("Fim do programa");
 
 
 
-// OUTROS EXEMPLOS
-// EXEMPLO - 01
+// - OUTROS EXEMPLOS
+// - EXEMPLO - 01
 
 function calcularMedia (array){
     let soma = 0;
@@ -117,7 +117,7 @@ const numeros = [1, 2, 3, 4, 5];
 const resultado = calcularMedia(numeros);
 console.log(resultado); //Output: 3
 
-// EXEMPLO - 02
+// - EXEMPLO - 02
 
 function calcularMedia(array) {
     const soma = array.reduce((acc, curr)) => acc
