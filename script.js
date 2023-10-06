@@ -52,7 +52,7 @@ document.write("Olá, documento!");
 window.alert("Olá, janela!");
 
 
-//Lógica de Programação
+// Lógica de Programação
 // Problema: obter 3 notas de um aluno, 
 // calcular a média, exibir a média e situação condicional se o aluno foi: Aprovado(a) ou Reprovado(a).
 
