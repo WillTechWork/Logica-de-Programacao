@@ -100,8 +100,8 @@ console.log("Fim do programa");
 
 
 
-// - OUTROS EXEMPLOS
-// - EXEMPLO - 01
+// - OUTRO EXEMPLO
+// - EXEMPLO -
 
 function calcularMedia (array){
     let soma = 0;
@@ -117,8 +117,3 @@ const numeros = [1, 2, 3, 4, 5];
 const resultado = calcularMedia(numeros);
 console.log(resultado); //Output: 3
 
-// - EXEMPLO - 02
-
-function calcularMedia(array) {
-    const soma = array.reduce((acc, curr)) => acc
-}
