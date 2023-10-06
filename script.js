@@ -1,25 +1,25 @@
-// * COMPUTADOR SE RESUME:
+//  COMPUTADOR SE RESUME:
 
-// * Máquina que extrai dados;
-// * Máquina que realiza processamento, ou seja, operações nos dados de entrada / saída.
-// * Dado: É o que pode ser processado;
-// * Informações: É o resultado de processamento;
-// * Processamento de dados: Entrada (Dados) > Processamento > Saída (Informação).
+//  Máquina que extrai dados;
+//  Máquina que realiza processamento, ou seja, operações nos dados de entrada / saída.
+//  Dado: É o que pode ser processado;
+//  Informações: É o resultado de processamento;
+//  Processamento de dados: Entrada (Dados) > Processamento > Saída (Informação).
 
-// * Lógica?
+//  Lógica?
 
-// * É aquilo que faz sentido.
+//  É aquilo que faz sentido.
 
-// * Para escrever um programa:
+//  Para escrever um programa:
 
-// * Aplicar a lógica para descrever os passos para resolver um problema em ordem de execução.
+//  Aplicar a lógica para descrever os passos para resolver um problema em ordem de execução.
+ 
+//  A lógica de programação:
 
-// * A lógica de programação:
+//  É a técnica de sequenciar pensamentos, passos, fluxo de dados para atingir um objetivo: a informação.
+//  A sequência de passos, instruções que o computador deve seguir é conhecida como um ALGORITMO.
 
-// * É a técnica de sequenciar pensamentos, passos, fluxo de dados para atingir um objetivo: a informação.
-// * A sequência de passos, instruções que o computador deve seguir é conhecida como um ALGORITMO.
-
-// * ALGORITMO:
+//  ALGORITMO:
 
 // Sequência lógica e finita de instruções que resolvem um problema;
 // Exemplo: Receita de bolo, manual de instruções para solucionar um problema;
