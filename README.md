@@ -188,9 +188,9 @@ O operador Não / Not pode ser simbolizado por ‘!’ em algumas linguagens de 
 - 2 - B = 4
 
 ## Expressão	Resultado
-- A > 0	Não  / Not / !	Falso        / False
-- B > 0	Não / Not /  !	Falso       / False
-- > B	Não  / Not /   !	Verdadeiro /True
+- A > 0	Não  / Not /!	Falso        / False
+- B > 0	Não / Not / !	Falso       / False
+- > B	Não  / Not /  !	Verdadeiro /True
 
 
 
